@@ -1,0 +1,27 @@
+2024-02-15 20:28:59.937 PST [3638] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-15 20:28:59.946 PST [3638] LOG:  listening on IPv6 address "::1", port 5432
+2024-02-15 20:28:59.946 PST [3638] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-02-15 20:28:59.947 PST [3638] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-15 20:28:59.949 PST [3638] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-15 20:28:59.952 PST [3640] LOG:  database system was shut down at 2024-02-15 20:28:52 PST
+2024-02-15 20:28:59.956 PST [3638] LOG:  database system is ready to accept connections
+2024-02-15 20:29:06.447 PST [3666] FATAL:  role "root" does not exist
+2024-02-15 20:29:06.451 PST [3667] FATAL:  role "root" does not exist
+2024-02-15 20:29:29.305 PST [3743] ERROR:  role "postgres" already exists
+2024-02-15 20:29:29.305 PST [3743] STATEMENT:  CREATE ROLE postgres SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;
+2024-02-15 20:34:47.203 PST [3914] ERROR:  database "repmgf" does not exist
+2024-02-15 20:34:47.203 PST [3914] STATEMENT:  DROP DATABASE repmgf;
+2024-02-15 20:35:11.599 PST [3928] ERROR:  database "postgres" already exists
+2024-02-15 20:35:11.599 PST [3928] STATEMENT:  CREATE DATABASE postgres OWNER postgres;
+2024-02-15 23:57:28.600 PST [3638] LOG:  received fast shutdown request
+2024-02-15 23:57:28.608 PST [3638] LOG:  aborting any active transactions
+2024-02-15 23:57:28.620 PST [3638] LOG:  background worker "logical replication launcher" (PID 3646) exited with exit code 1
+2024-02-15 23:57:28.620 PST [3641] LOG:  shutting down
+2024-02-15 23:57:28.681 PST [3638] LOG:  database system is shut down
+2024-02-15 23:57:28.830 PST [7659] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-15 23:57:28.832 PST [7659] LOG:  listening on IPv6 address "::1", port 5432
+2024-02-15 23:57:28.833 PST [7659] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-02-15 23:57:28.836 PST [7659] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-15 23:57:28.837 PST [7659] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-15 23:57:28.840 PST [7662] LOG:  database system was shut down at 2024-02-15 23:57:28 PST
+2024-02-15 23:57:28.846 PST [7659] LOG:  database system is ready to accept connections

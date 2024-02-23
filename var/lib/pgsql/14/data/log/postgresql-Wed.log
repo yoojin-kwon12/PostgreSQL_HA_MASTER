@@ -1,0 +1,282 @@
+2024-02-21 16:22:31.449 PST [9741] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 16:22:31.451 PST [9741] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 16:22:31.451 PST [9741] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 16:22:31.475 PST [9741] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 16:22:31.488 PST [9741] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 16:22:31.499 PST [9744] LOG:  database system was shut down at 2024-02-20 23:33:19 PST
+2024-02-21 16:22:31.510 PST [9741] LOG:  database system is ready to accept connections
+2024-02-21 17:16:37.406 PST [9741] LOG:  received fast shutdown request
+2024-02-21 17:16:37.410 PST [9741] LOG:  aborting any active transactions
+2024-02-21 17:16:37.420 PST [9992] FATAL:  terminating connection due to administrator command
+2024-02-21 17:16:37.421 PST [9771] FATAL:  terminating connection due to administrator command
+2024-02-21 17:16:37.441 PST [9741] LOG:  background worker "logical replication launcher" (PID 9751) exited with exit code 1
+2024-02-21 17:16:37.467 PST [9745] LOG:  shutting down
+2024-02-21 17:16:37.763 PST [9741] LOG:  database system is shut down
+2024-02-21 17:16:54.050 PST [13729] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 17:16:54.052 PST [13729] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 17:16:54.052 PST [13729] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 17:16:54.057 PST [13729] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 17:16:54.059 PST [13729] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 17:16:54.063 PST [13732] LOG:  database system was shut down at 2024-02-21 17:16:37 PST
+2024-02-21 17:16:54.069 PST [13729] LOG:  database system is ready to accept connections
+2024-02-21 17:17:01.397 PST [13729] LOG:  received fast shutdown request
+2024-02-21 17:17:01.400 PST [13729] LOG:  aborting any active transactions
+2024-02-21 17:17:01.401 PST [13755] FATAL:  terminating connection due to administrator command
+2024-02-21 17:17:01.408 PST [13729] LOG:  background worker "logical replication launcher" (PID 13739) exited with exit code 1
+2024-02-21 17:17:01.408 PST [13733] LOG:  shutting down
+2024-02-21 17:17:01.735 PST [13751] ERROR:  requested WAL segment 000000010000000000000010 has already been removed
+2024-02-21 17:17:01.735 PST [13751] STATEMENT:  START_REPLICATION 0/10000000 TIMELINE 1
+2024-02-21 17:17:01.766 PST [13729] LOG:  database system is shut down
+2024-02-21 17:22:06.695 PST [2691] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 17:22:06.698 PST [2691] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 17:22:06.698 PST [2691] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 17:22:06.704 PST [2691] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 17:22:06.706 PST [2691] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 17:22:06.717 PST [2694] LOG:  database system was shut down at 2024-02-21 17:17:01 PST
+2024-02-21 17:22:06.730 PST [2691] LOG:  database system is ready to accept connections
+2024-02-21 17:22:26.235 PST [2691] LOG:  received fast shutdown request
+2024-02-21 17:22:26.237 PST [2691] LOG:  aborting any active transactions
+2024-02-21 17:22:26.237 PST [2730] FATAL:  terminating connection due to administrator command
+2024-02-21 17:22:26.239 PST [2715] FATAL:  terminating connection due to administrator command
+2024-02-21 17:22:26.247 PST [2691] LOG:  background worker "logical replication launcher" (PID 2701) exited with exit code 1
+2024-02-21 17:22:26.247 PST [2695] LOG:  shutting down
+2024-02-21 17:22:26.357 PST [2717] ERROR:  requested WAL segment 000000010000000000000011 has already been removed
+2024-02-21 17:22:26.357 PST [2717] STATEMENT:  START_REPLICATION 0/11000000 TIMELINE 1
+2024-02-21 17:22:26.369 PST [2691] LOG:  database system is shut down
+2024-02-21 18:10:58.789 PST [3686] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 18:10:58.790 PST [3686] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 18:10:58.791 PST [3686] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 18:10:58.796 PST [3686] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 18:10:58.797 PST [3686] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 18:10:58.803 PST [3689] LOG:  database system was shut down at 2024-02-21 17:22:26 PST
+2024-02-21 18:10:58.817 PST [3686] LOG:  database system is ready to accept connections
+2024-02-21 18:11:24.405 PST [3686] LOG:  received fast shutdown request
+2024-02-21 18:11:24.408 PST [3686] LOG:  aborting any active transactions
+2024-02-21 18:11:24.408 PST [3714] FATAL:  terminating connection due to administrator command
+2024-02-21 18:11:24.410 PST [3710] FATAL:  terminating connection due to administrator command
+2024-02-21 18:11:24.421 PST [3686] LOG:  background worker "logical replication launcher" (PID 3696) exited with exit code 1
+2024-02-21 18:11:24.421 PST [3690] LOG:  shutting down
+2024-02-21 18:11:24.563 PST [3717] ERROR:  requested WAL segment 000000010000000000000012 has already been removed
+2024-02-21 18:11:24.563 PST [3717] STATEMENT:  START_REPLICATION 0/12000000 TIMELINE 1
+2024-02-21 19:41:48.096 PST [3791] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 19:41:48.099 PST [3791] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 19:41:48.099 PST [3791] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 19:41:48.102 PST [3791] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 19:41:48.104 PST [3791] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 19:41:48.117 PST [3794] LOG:  database system was shut down at 2024-02-21 18:11:24 PST
+2024-02-21 19:41:48.130 PST [3791] LOG:  database system is ready to accept connections
+2024-02-21 19:42:11.927 PST [3791] LOG:  received fast shutdown request
+2024-02-21 19:42:11.929 PST [3791] LOG:  aborting any active transactions
+2024-02-21 19:42:11.929 PST [3815] FATAL:  terminating connection due to administrator command
+2024-02-21 19:42:11.938 PST [3791] LOG:  background worker "logical replication launcher" (PID 3801) exited with exit code 1
+2024-02-21 19:42:11.939 PST [3795] LOG:  shutting down
+2024-02-21 19:42:12.154 PST [3816] ERROR:  requested WAL segment 000000010000000000000013 has already been removed
+2024-02-21 19:42:12.154 PST [3816] STATEMENT:  START_REPLICATION 0/13000000 TIMELINE 1
+2024-02-21 19:45:07.958 PST [3971] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 19:45:07.959 PST [3971] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 19:45:07.959 PST [3971] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 19:45:07.963 PST [3971] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 19:45:07.964 PST [3971] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 19:45:07.968 PST [3975] LOG:  database system was shut down at 2024-02-21 19:42:12 PST
+2024-02-21 19:45:07.973 PST [3971] LOG:  database system is ready to accept connections
+2024-02-21 19:45:58.266 PST [3971] LOG:  received fast shutdown request
+2024-02-21 19:45:58.271 PST [3971] LOG:  aborting any active transactions
+2024-02-21 19:45:58.271 PST [4002] FATAL:  terminating connection due to administrator command
+2024-02-21 19:45:58.279 PST [3971] LOG:  background worker "logical replication launcher" (PID 3982) exited with exit code 1
+2024-02-21 19:45:58.279 PST [3976] LOG:  shutting down
+2024-02-21 19:45:58.418 PST [4018] ERROR:  requested WAL segment 000000010000000000000014 has already been removed
+2024-02-21 19:45:58.418 PST [4018] STATEMENT:  START_REPLICATION 0/14000000 TIMELINE 1
+2024-02-21 20:16:37.455 PST [4608] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 20:16:37.457 PST [4608] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 20:16:37.457 PST [4608] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 20:16:37.463 PST [4608] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 20:16:37.466 PST [4608] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 20:16:37.470 PST [4611] LOG:  database system was shut down at 2024-02-21 19:45:58 PST
+2024-02-21 20:16:37.480 PST [4608] LOG:  database system is ready to accept connections
+2024-02-21 20:16:58.355 PST [4608] LOG:  received fast shutdown request
+2024-02-21 20:16:58.359 PST [4608] LOG:  aborting any active transactions
+2024-02-21 20:16:58.359 PST [4638] FATAL:  terminating connection due to administrator command
+2024-02-21 20:16:58.369 PST [4608] LOG:  background worker "logical replication launcher" (PID 4618) exited with exit code 1
+2024-02-21 20:16:58.369 PST [4612] LOG:  shutting down
+2024-02-21 20:16:58.525 PST [4629] ERROR:  requested WAL segment 000000010000000000000015 has already been removed
+2024-02-21 20:16:58.525 PST [4629] STATEMENT:  START_REPLICATION 0/15000000 TIMELINE 1
+2024-02-21 20:23:17.258 PST [4807] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 20:23:17.261 PST [4807] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 20:23:17.261 PST [4807] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 20:23:17.267 PST [4807] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 20:23:17.269 PST [4807] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 20:23:17.275 PST [4809] LOG:  database system was shut down at 2024-02-21 20:16:58 PST
+2024-02-21 20:23:17.284 PST [4807] LOG:  database system is ready to accept connections
+2024-02-21 20:23:29.500 PST [4807] LOG:  received fast shutdown request
+2024-02-21 20:23:29.509 PST [4807] LOG:  aborting any active transactions
+2024-02-21 20:23:29.518 PST [4807] LOG:  background worker "logical replication launcher" (PID 4816) exited with exit code 1
+2024-02-21 20:23:29.518 PST [4810] LOG:  shutting down
+2024-02-21 20:23:29.859 PST [4831] ERROR:  requested WAL segment 000000010000000000000016 has already been removed
+2024-02-21 20:23:29.859 PST [4831] STATEMENT:  START_REPLICATION 0/16000000 TIMELINE 1
+2024-02-21 20:23:29.893 PST [4913] FATAL:  the database system is shutting down
+2024-02-21 20:23:29.904 PST [4807] LOG:  database system is shut down
+2024-02-21 20:39:32.975 PST [2720] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 20:39:32.978 PST [2720] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 20:39:32.978 PST [2720] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 20:39:32.981 PST [2720] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 20:39:32.985 PST [2720] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 20:39:32.993 PST [2725] LOG:  database system was shut down at 2024-02-21 20:23:29 PST
+2024-02-21 20:39:33.003 PST [2720] LOG:  database system is ready to accept connections
+2024-02-21 21:11:01.988 PST [2720] LOG:  received fast shutdown request
+2024-02-21 21:11:02.003 PST [2720] LOG:  aborting any active transactions
+2024-02-21 21:11:02.004 PST [3337] FATAL:  terminating connection due to administrator command
+2024-02-21 21:11:02.008 PST [3315] FATAL:  terminating connection due to administrator command
+2024-02-21 21:11:02.018 PST [2720] LOG:  background worker "logical replication launcher" (PID 2732) exited with exit code 1
+2024-02-21 21:11:02.018 PST [2726] LOG:  shutting down
+2024-02-21 21:11:02.280 PST [2720] LOG:  database system is shut down
+2024-02-21 21:11:02.359 PST [3392] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 21:11:02.360 PST [3392] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 21:11:02.362 PST [3392] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 21:11:02.363 PST [3392] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 21:11:02.364 PST [3392] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 21:11:02.368 PST [3395] LOG:  database system was shut down at 2024-02-21 21:11:02 PST
+2024-02-21 21:11:02.373 PST [3392] LOG:  database system is ready to accept connections
+2024-02-21 21:11:39.864 PST [3392] LOG:  received fast shutdown request
+2024-02-21 21:11:39.866 PST [3392] LOG:  aborting any active transactions
+2024-02-21 21:11:39.867 PST [3418] FATAL:  terminating connection due to administrator command
+2024-02-21 21:11:39.869 PST [3414] FATAL:  terminating connection due to administrator command
+2024-02-21 21:11:39.880 PST [3392] LOG:  background worker "logical replication launcher" (PID 3402) exited with exit code 1
+2024-02-21 21:11:39.892 PST [3396] LOG:  shutting down
+2024-02-21 21:11:39.940 PST [3466] FATAL:  the database system is shutting down
+2024-02-21 21:11:40.029 PST [3428] ERROR:  requested WAL segment 000000010000000000000018 has already been removed
+2024-02-21 21:11:40.029 PST [3428] STATEMENT:  START_REPLICATION 0/18000000 TIMELINE 1
+2024-02-21 21:33:17.215 PST [3858] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 21:33:17.217 PST [3858] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 21:33:17.217 PST [3858] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 21:33:17.223 PST [3858] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 21:33:17.225 PST [3858] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 21:33:17.229 PST [3861] LOG:  database system was shut down at 2024-02-21 21:11:40 PST
+2024-02-21 21:33:17.235 PST [3858] LOG:  database system is ready to accept connections
+2024-02-21 21:46:00.813 PST [3858] LOG:  received fast shutdown request
+2024-02-21 21:46:00.819 PST [3858] LOG:  aborting any active transactions
+2024-02-21 21:46:00.828 PST [3886] FATAL:  terminating connection due to administrator command
+2024-02-21 21:46:00.830 PST [3882] FATAL:  terminating connection due to administrator command
+2024-02-21 21:46:00.842 PST [3858] LOG:  background worker "logical replication launcher" (PID 3868) exited with exit code 1
+2024-02-21 21:46:00.842 PST [3862] LOG:  shutting down
+2024-02-21 21:46:01.132 PST [3858] LOG:  database system is shut down
+2024-02-21 21:46:01.229 PST [5568] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 21:46:01.231 PST [5568] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 21:46:01.231 PST [5568] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 21:46:01.233 PST [5568] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 21:46:01.235 PST [5568] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 21:46:01.239 PST [5571] LOG:  database system was shut down at 2024-02-21 21:46:00 PST
+2024-02-21 21:46:01.244 PST [5568] LOG:  database system is ready to accept connections
+2024-02-21 21:46:43.821 PST [5568] LOG:  received fast shutdown request
+2024-02-21 21:46:43.847 PST [5568] LOG:  aborting any active transactions
+2024-02-21 21:46:43.849 PST [5637] FATAL:  terminating connection due to administrator command
+2024-02-21 21:46:43.851 PST [5607] FATAL:  terminating connection due to administrator command
+2024-02-21 21:46:43.863 PST [5568] LOG:  background worker "logical replication launcher" (PID 5578) exited with exit code 1
+2024-02-21 21:46:43.864 PST [5572] LOG:  shutting down
+2024-02-21 21:46:43.913 PST [5678] FATAL:  the database system is shutting down
+2024-02-21 21:46:43.947 PST [5680] FATAL:  the database system is shutting down
+2024-02-21 21:46:43.980 PST [5682] FATAL:  the database system is shutting down
+2024-02-21 21:46:44.119 PST [5568] LOG:  database system is shut down
+2024-02-21 21:49:44.942 PST [5865] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 21:49:44.944 PST [5865] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 21:49:44.944 PST [5865] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 21:49:44.951 PST [5865] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 21:49:44.955 PST [5865] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 21:49:44.960 PST [5867] LOG:  database system was shut down at 2024-02-21 21:46:43 PST
+2024-02-21 21:49:44.965 PST [5865] LOG:  database system is ready to accept connections
+2024-02-21 21:58:15.831 PST [5865] LOG:  received fast shutdown request
+2024-02-21 21:58:15.834 PST [5865] LOG:  aborting any active transactions
+2024-02-21 21:58:15.834 PST [5892] FATAL:  terminating connection due to administrator command
+2024-02-21 21:58:15.837 PST [5888] FATAL:  terminating connection due to administrator command
+2024-02-21 21:58:15.845 PST [5865] LOG:  background worker "logical replication launcher" (PID 5874) exited with exit code 1
+2024-02-21 21:58:15.845 PST [5868] LOG:  shutting down
+2024-02-21 21:58:15.970 PST [5918] ERROR:  requested WAL segment 00000001000000000000001B has already been removed
+2024-02-21 21:58:15.970 PST [5918] STATEMENT:  START_REPLICATION 0/1B000000 TIMELINE 1
+2024-02-21 22:05:12.837 PST [6970] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 22:05:12.841 PST [6970] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 22:05:12.841 PST [6970] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 22:05:12.847 PST [6970] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 22:05:12.849 PST [6970] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 22:05:12.854 PST [6974] LOG:  database system was shut down at 2024-02-21 21:58:15 PST
+2024-02-21 22:05:12.859 PST [6970] LOG:  database system is ready to accept connections
+2024-02-21 22:05:36.464 PST [6970] LOG:  received fast shutdown request
+2024-02-21 22:05:36.468 PST [6970] LOG:  aborting any active transactions
+2024-02-21 22:05:36.468 PST [7009] FATAL:  terminating connection due to administrator command
+2024-02-21 22:05:36.479 PST [6970] LOG:  background worker "logical replication launcher" (PID 6981) exited with exit code 1
+2024-02-21 22:05:36.479 PST [6975] LOG:  shutting down
+2024-02-21 22:05:36.611 PST [6996] ERROR:  requested WAL segment 00000001000000000000001C has already been removed
+2024-02-21 22:05:36.611 PST [6996] STATEMENT:  START_REPLICATION 0/1C000000 TIMELINE 1
+2024-02-21 22:08:01.967 PST [7132] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 22:08:01.967 PST [7132] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 22:08:01.967 PST [7132] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 22:08:01.971 PST [7132] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 22:08:01.972 PST [7132] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 22:08:01.983 PST [7137] LOG:  database system was shut down at 2024-02-21 22:05:36 PST
+2024-02-21 22:08:01.987 PST [7132] LOG:  database system is ready to accept connections
+2024-02-21 22:09:34.052 PST [7132] LOG:  received fast shutdown request
+2024-02-21 22:09:34.057 PST [7132] LOG:  aborting any active transactions
+2024-02-21 22:09:34.057 PST [7202] FATAL:  terminating connection due to administrator command
+2024-02-21 22:09:34.060 PST [7158] FATAL:  terminating connection due to administrator command
+2024-02-21 22:09:34.067 PST [7132] LOG:  background worker "logical replication launcher" (PID 7144) exited with exit code 1
+2024-02-21 22:09:34.067 PST [7138] LOG:  shutting down
+2024-02-21 22:09:34.187 PST [7161] ERROR:  requested WAL segment 00000001000000000000001D has already been removed
+2024-02-21 22:09:34.187 PST [7161] STATEMENT:  START_REPLICATION 0/1D000000 TIMELINE 1
+2024-02-21 23:22:06.888 PST [8332] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 23:22:06.890 PST [8332] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 23:22:06.890 PST [8332] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 23:22:06.895 PST [8332] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 23:22:06.897 PST [8332] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 23:22:06.902 PST [8335] LOG:  database system was shut down at 2024-02-21 22:09:34 PST
+2024-02-21 23:22:06.921 PST [8332] LOG:  database system is ready to accept connections
+2024-02-21 23:22:33.384 PST [8332] LOG:  received fast shutdown request
+2024-02-21 23:22:33.387 PST [8332] LOG:  aborting any active transactions
+2024-02-21 23:22:33.387 PST [8368] FATAL:  terminating connection due to administrator command
+2024-02-21 23:22:33.390 PST [8356] FATAL:  terminating connection due to administrator command
+2024-02-21 23:22:33.402 PST [8332] LOG:  background worker "logical replication launcher" (PID 8342) exited with exit code 1
+2024-02-21 23:22:33.402 PST [8336] LOG:  shutting down
+2024-02-21 23:22:33.563 PST [8357] ERROR:  requested WAL segment 00000001000000000000001E has already been removed
+2024-02-21 23:22:33.563 PST [8357] STATEMENT:  START_REPLICATION 0/1E000000 TIMELINE 1
+2024-02-21 23:24:48.291 PST [8486] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 23:24:48.291 PST [8486] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 23:24:48.291 PST [8486] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 23:24:48.297 PST [8486] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 23:24:48.301 PST [8486] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 23:24:48.305 PST [8489] LOG:  database system was shut down at 2024-02-21 23:22:33 PST
+2024-02-21 23:24:48.317 PST [8486] LOG:  database system is ready to accept connections
+2024-02-21 23:25:34.707 PST [8486] LOG:  received fast shutdown request
+2024-02-21 23:25:34.709 PST [8486] LOG:  aborting any active transactions
+2024-02-21 23:25:34.709 PST [8530] FATAL:  terminating connection due to administrator command
+2024-02-21 23:25:34.712 PST [8515] FATAL:  terminating connection due to administrator command
+2024-02-21 23:25:34.719 PST [8486] LOG:  background worker "logical replication launcher" (PID 8496) exited with exit code 1
+2024-02-21 23:25:34.719 PST [8490] LOG:  shutting down
+2024-02-21 23:25:34.864 PST [8507] ERROR:  requested WAL segment 00000001000000000000001F has already been removed
+2024-02-21 23:25:34.864 PST [8507] STATEMENT:  START_REPLICATION 0/1F000000 TIMELINE 1
+2024-02-21 23:27:48.164 PST [8651] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 23:27:48.165 PST [8651] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 23:27:48.165 PST [8651] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 23:27:48.168 PST [8651] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 23:27:48.169 PST [8651] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 23:27:48.179 PST [8655] LOG:  database system was shut down at 2024-02-21 23:25:34 PST
+2024-02-21 23:27:48.187 PST [8651] LOG:  database system is ready to accept connections
+2024-02-21 23:28:46.316 PST [8651] LOG:  received fast shutdown request
+2024-02-21 23:28:46.319 PST [8651] LOG:  aborting any active transactions
+2024-02-21 23:28:46.319 PST [8676] FATAL:  terminating connection due to administrator command
+2024-02-21 23:28:46.330 PST [8651] LOG:  background worker "logical replication launcher" (PID 8662) exited with exit code 1
+2024-02-21 23:28:46.330 PST [8656] LOG:  shutting down
+2024-02-21 23:28:46.465 PST [8677] ERROR:  requested WAL segment 000000010000000000000020 has already been removed
+2024-02-21 23:28:46.465 PST [8677] STATEMENT:  START_REPLICATION 0/20000000 TIMELINE 1
+2024-02-21 23:28:46.471 PST [8651] LOG:  database system is shut down
+2024-02-21 23:29:49.586 PST [8763] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 23:29:49.587 PST [8763] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 23:29:49.587 PST [8763] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 23:29:49.590 PST [8763] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 23:29:49.591 PST [8763] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 23:29:49.595 PST [8766] LOG:  database system was shut down at 2024-02-21 23:28:46 PST
+2024-02-21 23:29:49.599 PST [8763] LOG:  database system is ready to accept connections
+2024-02-21 23:30:33.106 PST [8763] LOG:  received fast shutdown request
+2024-02-21 23:30:33.108 PST [8763] LOG:  aborting any active transactions
+2024-02-21 23:30:33.108 PST [8844] FATAL:  terminating connection due to administrator command
+2024-02-21 23:30:33.111 PST [8826] FATAL:  terminating connection due to administrator command
+2024-02-21 23:30:33.123 PST [8763] LOG:  background worker "logical replication launcher" (PID 8773) exited with exit code 1
+2024-02-21 23:30:33.124 PST [8767] LOG:  shutting down
+2024-02-21 23:30:33.257 PST [8788] ERROR:  requested WAL segment 000000010000000000000021 has already been removed
+2024-02-21 23:30:33.257 PST [8788] STATEMENT:  START_REPLICATION 0/21000000 TIMELINE 1
