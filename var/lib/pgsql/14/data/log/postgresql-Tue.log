@@ -1,0 +1,7 @@
+2024-02-20 00:49:33.839 PST [3664] LOG:  terminating walsender process due to replication timeout
+2024-02-20 00:49:33.839 PST [3664] STATEMENT:  START_REPLICATION 0/E000000 TIMELINE 1
+2024-02-20 23:33:18.180 PST [3147] LOG:  received fast shutdown request
+2024-02-20 23:33:18.281 PST [3147] LOG:  aborting any active transactions
+2024-02-20 23:33:18.313 PST [3147] LOG:  background worker "logical replication launcher" (PID 3157) exited with exit code 1
+2024-02-20 23:33:18.313 PST [3151] LOG:  shutting down
+2024-02-20 23:33:20.025 PST [3147] LOG:  database system is shut down
